@@ -1,5 +1,3 @@
-import './roxy.css';
-
 function Main() {
     return (
       <div className="App-header">
