@@ -31,9 +31,9 @@ window.addEventListener('resize', showButton);
 
 return (
     <>
-    <nav className="navbar">
-       <div className="navbar-container">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
+    <nav className='navbar'>
+       <div className='navbar-container'>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
             TRVL <i className='fab fa-typo3' />
         </Link> 
         <div className='menu-icon' onClick={handleClick}>
