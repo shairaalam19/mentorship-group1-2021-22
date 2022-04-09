@@ -33,13 +33,13 @@ export function Cards() {
               src="/images/img-4.jpg"
               text="Experience football at the top of the Himilayan Mountains"
               label="Adventure"
-              path="/services"
+              path="/sign-up"
             />
             <CardItem
               src="/images/img-8.jpg"
               text="Ride through the Sahara Desert on a guided camel tour"
               label="Adrenaline"
-              path="/services"
+              path="/sign-up"
             />
           </ul>
         </div>
