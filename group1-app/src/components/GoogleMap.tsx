@@ -21,7 +21,7 @@ function MapComponent({
 }
 
 export const GoogleMap = () => {
-    <Wrapper apiKey={"YOUR_API_KEY"}>
+    <Wrapper apiKey={"mentormap"}>
         <MapComponent center={undefined} zoom={0} />
     </Wrapper>
 }
