@@ -3,13 +3,14 @@ import "../../App.css";
 import { Cards } from "../Cards";
 // import {GoogleMap} from "../GoogleMap";
 
-export function Map() {
+export function Destination() {
   return (
     <>
-      {/* <Cards /> */}
+      <h1 className="card-header">Check out these EPIC Destinations!</h1>
+      <Cards />
       {/* <GoogleMap/> */}
     </>
   );
 }
 
-export default Map;
+export default Destination;
