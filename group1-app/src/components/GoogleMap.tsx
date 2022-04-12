@@ -4,9 +4,11 @@ import { useEffect, useRef, ReactElement } from "react";
 const render = (status: Status): ReactElement =>{
   if (status === Status.LOADING) return <h3>{status} ..</h3>;
   if (status === Status.FAILURE) return <h3>{status} ..</h3>;
+  if (status === Status.SUCCESS) return <h3>{status} ..</h3>;
   return null;
-  //return <MapComponent center={{ lat: -34.397, lng: 150.644 }} zoom={8} />;
 }
+  //return <MapComponent center={{ lat: -34.397, lng: 150.644 }} zoom={8} />;
+
 function MapComponent({
     center,
     zoom,
