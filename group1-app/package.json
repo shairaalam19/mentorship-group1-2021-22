@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD:group1-app/package.json
-  "name": "group1-app",
-=======
   "name": "group1",
->>>>>>> 814efecbda97ee40f5212781f793a0c98bc52951:leyli-group1-app/package.json
   "version": "0.1.0",
   "private": true,
   "dependencies": {
