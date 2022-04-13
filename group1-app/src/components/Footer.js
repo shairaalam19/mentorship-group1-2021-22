@@ -44,17 +44,17 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                 <div class='footer-link-items'>
                     <h2>Videos</h2>
-                    <Link to='/'>Submit Video</Link>
-                    <Link to='/'>Ambassadors</Link>
-                    <Link to='/'>Agency</Link>
-                    <Link to='/'>Influencer</Link>
+                    <Link to='/'> Submit Video </Link>
+                    <Link to='/'> Ambassadors </Link>
+                    <Link to='/'> Agency </Link>
+                    <Link to='/'> Influencer</Link>
                 </div>
                 <div class='footer-link-items'>
                     <h2>Social Media</h2>
-                    <Link to='/'>Instagram</Link>
-                    <Link to='/'>Facebook</Link>
-                    <Link to='/'>Youtube</Link>
-                    <Link to='/'>Twitter</Link>
+                    <Link to='/'>Instagram  </Link>
+                    <Link to='/'>Facebook  </Link>
+                    <Link to='/'>Youtube  </Link>
+                    <Link to='/'>Twitter  </Link>
                 </div>
                 
             </div>
@@ -81,6 +81,19 @@ function Footer() {
                     ariea-label="Instagram">
                         <i className="fab fa-instagram"></i>
                     </Link>
+                    <Link ckassName="social-icon-link twitter"
+                    to="/"
+                    target="_blank"
+                    ariea-label="Twitter">
+                        <i className="fab fa-twitter"></i>
+                    </Link>
+                    <Link ckassName="social-icon-link linkedin"
+                    to="/"
+                    target="_blank"
+                    ariea-label="LinkedIn">
+                        <i className="fab fa-linkedin"></i>
+                    </Link>
+
                 </div>
             </div>
         </section>
