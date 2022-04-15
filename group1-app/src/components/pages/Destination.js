@@ -1,14 +1,17 @@
 import React from "react";
 import "../../App.css";
 import { Cards } from "../Cards";
-// import {GoogleMap} from "../GoogleMap";
+// import {GoogleMap} from "./components/GoogleMap";
 
 export function Destination() {
   return (
     <>
-      <h1 className="card-header">Check out these EPIC Destinations!</h1>
+    <div className = "destination-wrapper">
+      <h1>Check out these EPIC Destinations!</h1>
+      {/* this is totally white */}
       <Cards />
       {/* <GoogleMap/> */}
+    </div>
     </>
   );
 }

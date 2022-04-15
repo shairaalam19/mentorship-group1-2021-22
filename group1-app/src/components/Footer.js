@@ -69,25 +69,25 @@ function Footer() {
                 </div>
                  <small className="website-rights">GROUP-1 © 2022</small>
                 <div className="social-icons">
-                    <Link ckassName="social-icon-link facebook"
+                    <Link className="social-icon-link facebook"
                     to="/"
                     target="_blank"
                     ariea-label="Facebook">
                         <i className="fab fa-facebook-f"></i>
                     </Link>
-                    <Link ckassName="social-icon-link instagram"
+                    <Link className="social-icon-link instagram"
                     to="/"
                     target="_blank"
                     ariea-label="Instagram">
                         <i className="fab fa-instagram"></i>
                     </Link>
-                    <Link ckassName="social-icon-link twitter"
+                    <Link className="social-icon-link twitter"
                     to="/"
                     target="_blank"
                     ariea-label="Twitter">
                         <i className="fab fa-twitter"></i>
                     </Link>
-                    <Link ckassName="social-icon-link linkedin"
+                    <Link className="social-icon-link linkedin"
                     to="/"
                     target="_blank"
                     ariea-label="LinkedIn">

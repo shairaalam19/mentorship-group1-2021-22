@@ -8,14 +8,14 @@
   h1{
     color: rgb(255, 255, 255);
     font-size: 100px;
-    font-family: fantasy;
+    /** font-family: fantasy; */
     font-weight: normal;
   }
 
   p{
     color: rgba(255, 255, 255, 0.888);
     font-size: 30px;
-    font-family: fantasy;
+    /** font-family: fantasy; ---> this is not an accepted font */
 
   }
 
@@ -55,4 +55,8 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+  }
+
+  .destination-wrapper {
+    background-color:rgb(41, 48, 49);
   }
