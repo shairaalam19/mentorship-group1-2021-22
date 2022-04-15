@@ -42,6 +42,11 @@
 //   // map will be connect to this div block
 //   return <div ref={ref} id="map" className={classes.map} />;
 // }
+// // export const GoogleMap = () => {
+// //     <Wrapper apiKey={"mentormap"}>
+// //         <MapComponent center={undefined} zoom={8} />
+// //     </Wrapper>
+// // }
 
 // export default GoogleMap;
 // // import { Wrapper, Status } from "@googlemaps/react-wrapper";
