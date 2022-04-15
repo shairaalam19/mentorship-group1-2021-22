@@ -26,7 +26,7 @@ export function Map() {
   return (
     <>
       <Wrapper apiKey={process.env.REACT_APP_GOOGLE_KEY} render={render}>
-        <GoogleMap center={{ lat: 55.753559, lng: 37.609218 }} zoom={11} />
+        <GoogleMap center={{ lat: 33.4242, lng: -111.9281 }} zoom={11} />
       </Wrapper>
     </>
   );
