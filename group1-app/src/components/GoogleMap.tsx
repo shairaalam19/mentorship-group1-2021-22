@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 // we will use make styles for styling components, you can use another solutions (like css, sass or cssonjs
 import { makeStyles } from "@material-ui/core";
 // api mock data
-import Apartments from "./apartments.ts";
 
 // Our component will receive center coords and zoom size in props
 type MapProps = {
