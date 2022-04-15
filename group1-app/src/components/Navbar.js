@@ -62,7 +62,7 @@ return (
           </Link>
         </li>
         </ul>
-        {button && <Button buttonStyle='btn--outline' path="/Destination"> SIGN UP </Button>}
+        {button && <Button buttonStyle='btn--outline' path='/Destination'> SIGN UP </Button>}
         </div> 
     </nav>
     </>
